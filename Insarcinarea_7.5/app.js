@@ -11,6 +11,7 @@ document.getElementById("-").addEventListener("click", ()=>{
         document.getElementById("input").stepDown(1);
         document.getElementById("-").disabled = true;
     }
+    
 })
 document.getElementById("+").addEventListener("click", ()=>{ 
     var num =parseInt(document.getElementById("input").value);
