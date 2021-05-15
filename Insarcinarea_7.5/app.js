@@ -12,6 +12,7 @@ document.getElementById("-").addEventListener("click", ()=>{
         document.getElementById("-").disabled = true;
     }
 })
+
 document.getElementById("+").addEventListener("click", ()=>{ 
     var num =parseInt(document.getElementById("input").value);
     if(num>-1 & num<8){
