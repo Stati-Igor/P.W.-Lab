@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", ()=>{
+
   let person = {
     name: "Person",
     age: 123 ,
@@ -12,6 +12,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
 person.contacts.phone= "+37312345678";
 delete person.address;
 console.log(person)
-})
+
 
 
