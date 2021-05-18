@@ -32,7 +32,7 @@ switch(digit){
         console.log("9");
         break;  
     default:
-        console.log("Nu este cifra");  
+        console.log("Nu este cifra !");  
     }
     });
 
