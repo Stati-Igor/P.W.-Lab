@@ -7,7 +7,7 @@ public class afisare{
     if(message!=null){
         this.message= message;
     } else{
-        this.message ="Message is mising"
+        this.message ="Message is mising";
     }
 }
 }
